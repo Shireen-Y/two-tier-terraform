@@ -38,7 +38,7 @@ resource "aws_route_table" "pub_route_table" {
     gateway_id = aws_internet_gateway.two_tier_gw.id
   }
   tags = {
-    Name = "${var.name} - route"
+    Name = "${var.name} - public route"
   }
 }
 

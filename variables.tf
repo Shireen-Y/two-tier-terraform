@@ -1,6 +1,6 @@
 variable "name" {
     type = string
-    default = "Eng48-Shireen-Y-app"
+    default = "Eng48-Shireen-Y-two-tier"
 }
 
 variable "ami_id" {
